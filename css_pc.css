@@ -438,7 +438,7 @@ input[type=checkbox],
 input[type=radio],
 .opt
   {
-  cursor: url("https://verimea.github.io/Ggongbless/source/elGgong.png") 0 0, auto !important;
+  cursor: url("https://verimea.github.io/Ggongbless_Holloween19/source/Cursor.png") 0 0, auto !important;
 }
 
 
@@ -455,7 +455,7 @@ input[type=radio],
 .fr-view img,
 .pull-left,
 a {
-  cursor: url("https://verimea.github.io/Ggongbless/source/elGgong.png") 0 0, auto !important;
+  cursor: url("https://verimea.github.io/Ggongbless_Holloween19/source/Cursor.png") 0 0, auto !important;
 }
 
 
@@ -467,5 +467,5 @@ span#viewers,
 .fr-box.fr-basic.fr-element,
 input[type='text']
   {
-  cursor: url("https://verimea.github.io/Ggongbless/source/elGgong.png") 0 0, auto !important;
+  cursor: url("https://verimea.github.io/Ggongbless_Holloween19/source/Cursor.png") 0 0, auto !important;
 }
