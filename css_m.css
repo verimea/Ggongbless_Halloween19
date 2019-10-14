@@ -68,6 +68,7 @@ header > #header-search-bar #header-search-input {
 #article-content-wrapper > .header { 
     background: var(--color-1) !important; 
     border-top: 2px solid var(--color-2); 
+    color: var(--color-0);
 }
 
 /* 게시글 리스트 스타일링 */
@@ -187,14 +188,14 @@ background-repeat: no-repeat;
     background: var(--color-2) !important; 
 }
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer { 
-  color: var(--color-1) !important; 
+  color: var(--color-4) !important; 
 }
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged { 
     color: var(--color-6) !important; 
 }
-#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a, .time {
   text-decoration: none;
-  color: var(--color-1);
+  color: var(--color-0);
 }
 
 
