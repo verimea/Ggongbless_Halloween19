@@ -15,20 +15,14 @@ color: var(--color-2);
 }
 /* 로고 */
 /* 꽁게더 로고를 트게더 대신에 보여주는 곳 */
-header .row > div:nth-child(1) > a::before { 
-content:'꽁로윈'; 
-display:block; 
-font-size:50px; 
-color: black; 
-line-height:1.4;
-font-family: 'DOSMyungjo'; 
-src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSMyungjo.woff') format('woff'); 
-font-weight: normal; 
-font-style: normal; 
-background: -webkit-linear-gradient(red, black);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+header .row > div:nth-child(1) > a {
+background-repeat: no-repeat; 
+display: block; 
+width: var(--logo-Width); 
+height: var(--logo-Height);
+background-image: var(--logo-URL); 
 }
+
 /* 꽁게더 로고를 가려줍니다 */
 header .row > div:nth-child(1) > a img { 
 display:none; 
@@ -39,12 +33,12 @@ color: var(--color-5);
 }
 
 #board-info #score-area {
-  display: none;
+display: none;
 }
 
 #board-info #board-info-bottom a {
-  font-size: 12px;
-  color: var(--color-4);
+font-size: 12px;
+color: var(--color-4);
 }
 
 /* 헤더 */
@@ -128,12 +122,12 @@ border-radius: 10px 10px 0 0;
 }
 
 #main .menu-wrapper > a {
-  display: block;
-  background: transparent;
-  padding: 0.3em 1.4em 0.3em 0.7em;
-  text-decoration: none;
-  color: var(--color-5);
-  border-bottom: 1px solid #f1f1f1;
+display: block;
+background: transparent;
+padding: 0.3em 1.4em 0.3em 0.7em;
+text-decoration: none;
+color: var(--color-5);
+border-bottom: 1px solid #f1f1f1;
 }
 
 #main .menu-wrapper > a > em { 
@@ -214,33 +208,33 @@ color: var(--color-6);
 }
 
 #article-neighbor-list > div > a {
-  display: table-cell;
-  color: var(--color-6);
-  text-decoration: none;
-  line-height: 18px;
-  word-break: break-all;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  max-width: 660px;
-  line-height: 28px;
-  vertical-align: middle;
+display: table-cell;
+color: var(--color-6);
+text-decoration: none;
+line-height: 18px;
+word-break: break-all;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+max-width: 660px;
+line-height: 28px;
+vertical-align: middle;
 }
 
 #article-content-wrapper #article-content {
-  float: none;
-  clear: both;
-  padding: 1em;
-  border-left: 1px solid transparent;
-  border-right: 1px solid transparent;
-  word-wrap: break-word;
+float: none;
+clear: both;
+padding: 1em;
+border-left: 1px solid transparent;
+border-right: 1px solid transparent;
+word-wrap: break-word;
 }
 
 #article-content-wrapper > .vote-area {
-  text-align: center;
-  padding: 0 0.8em 1.5em;
-  border-left: 1px solid transparent;
-  border-right: 1px solid transparent;
+text-align: center;
+padding: 0 0.8em 1.5em;
+border-left: 1px solid transparent;
+border-right: 1px solid transparent;
 }
 
 /* 글 읽을 때 헤더 컬러 */
@@ -373,9 +367,13 @@ color: var(--color-5);
 /* 스트리머 프로필 테두리 */
 /* #board-info #board-info-profile-img { border: 2px solid var(--color-4); border-radius: 30%; width: 50px; height: 50px; } */
 #board-info #board-info-profile-img { 
-border-radius: 30%; 
 width: 50px; 
-height: 50px; 
+height: 50px;
+padding: 50px;
+background: url("https://verimea.github.io/Ggongbless_Holloween19/source/GgongProfile_50x50.png");
+background-size: auto;
+background-repeat: no-repeat;
+background-position: right top;
 }
 
 
@@ -437,8 +435,8 @@ select.form-control,
 input[type=checkbox],
 input[type=radio],
 .opt
-  {
-  cursor: url("https://verimea.github.io/Ggongbless_Holloween19/source/Cursor.png") 0 0, auto !important;
+{
+cursor: url("https://verimea.github.io/Ggongbless_Holloween19/source/Cursor.png") 0 0, auto !important;
 }
 
 
@@ -455,7 +453,7 @@ input[type=radio],
 .fr-view img,
 .pull-left,
 a {
-  cursor: url("https://verimea.github.io/Ggongbless_Holloween19/source/Cursor.png") 0 0, auto !important;
+cursor: url("https://verimea.github.io/Ggongbless_Holloween19/source/Cursor.png") 0 0, auto !important;
 }
 
 
@@ -466,6 +464,6 @@ span#viewers,
 .fr-view,
 .fr-box.fr-basic.fr-element,
 input[type='text']
-  {
-  cursor: url("https://verimea.github.io/Ggongbless_Holloween19/source/Cursor.png") 0 0, auto !important;
+{
+cursor: url("https://verimea.github.io/Ggongbless_Holloween19/source/Cursor.png") 0 0, auto !important;
 }
