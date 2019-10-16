@@ -369,11 +369,13 @@ color: var(--color-5);
 #board-info #board-info-profile-img { 
 width: 50px; 
 height: 50px;
+  /*
 padding: 50px;
 background: url("https://verimea.github.io/Ggongbless_Holloween19/source/GgongProfile_50x50.png");
 background-size: auto;
 background-repeat: no-repeat;
 background-position: right top;
+  */
 }
 
 
