@@ -416,7 +416,6 @@ animation: infinite AquaLinkBG 3s;
     border: 2px solid var(--color-4);
 }
 #article-list #article-list-menu > .btn.best:hover {
-border: 0px;
 animation: infinite AquaLinkBG 3s; 
 }
 
