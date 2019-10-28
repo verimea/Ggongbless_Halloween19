@@ -1,5 +1,12 @@
 /* 모바일 뷰 */
 
+a {
+color: var(--color-4);
+}
+a:hover {
+  color: var(--color-5);
+}
+
 /* 메인 */
 #main-content, body, footer {
     background: var(--color-3) !important;
@@ -169,13 +176,26 @@ height: 23px;
 
 /* 버튼 애니메이션 */
 .btn-primary { 
-    background: var(--color-4); 
-    border-color: var(--color-1); 
+background: var(--color-4);  
 }
 .btn-primary:hover { 
-    animation: infinite AquaLinkBG 3s; 
+animation: infinite AquaLinkBG 3s; 
 }
-
+.btn.square {
+    border: 1px solid var(--color-4);
+    font-size: 12px;
+}
+#article-list #article-list-menu > .btn.best {
+    position: absolute;
+    left: 0;
+    color: var(--color-0);
+    background-image: none;
+    background-color: var(--color-4);
+    border: 2px solid var(--color-4);
+}
+#article-list #article-list-menu > .btn.best:hover {
+animation: infinite AquaLinkBG 3s; 
+}
 /* 댓글 스타일링 */
 #article-reply-area > .header h5 { 
     color: var(--color-4); 
