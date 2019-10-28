@@ -186,6 +186,9 @@ animation: infinite AquaLinkBG 3s;
     border: 1px solid var(--color-4);
     font-size: 12px;
 }
+.btn.square.btn-default {
+  border: 1px solid var(--color-2);
+}
 #article-list #article-list-menu > .btn.best {
     position: absolute;
     left: 0;
