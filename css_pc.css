@@ -402,7 +402,8 @@ vertical-align: sub;
 
 /* 버튼 애니메이션 */
 .btn-primary { 
-background: var(--color-4);  
+background: var(--color-4);
+border: 1px solid var(--color-4);
 }
 .btn-primary:hover { 
 animation: infinite AquaLinkBG 3s; 
