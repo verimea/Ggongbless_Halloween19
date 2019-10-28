@@ -196,6 +196,10 @@ animation: infinite AquaLinkBG 3s;
 #article-list #article-list-menu > .btn.best:hover {
 animation: infinite AquaLinkBG 3s; 
 }
+#writeCommentBtn {
+    border: 1px solid var(--color-4);
+}
+
 /* 댓글 스타일링 */
 #article-reply-area > .header h5 { 
     color: var(--color-4); 
