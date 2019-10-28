@@ -376,6 +376,8 @@ color: var(--color-5);
 #board-info #board-info-profile-img { 
 width: 50px; 
 height: 50px;
+border: 2px solid var(--color-5);
+border-radius: 50%;
   /*
 padding: 50px;
 background: url("https://verimea.github.io/Ggongbless_Holloween19/source/GgongProfile_50x50.png");
