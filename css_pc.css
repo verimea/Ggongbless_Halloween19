@@ -186,6 +186,7 @@ animation: 30s anim_hovered_background;
 .pagination > li > a {
 background: transparent;
 color: var(--color-0);
+border: 0px;
 }
 .pagination > li > a:hover { 
 animation: infinite AquaLinkBG 1.5s; 
@@ -397,11 +398,22 @@ vertical-align: sub;
 
 /* 버튼 애니메이션 */
 .btn-primary { 
-background: var(--color-5); 
-border-color: var(--color-1); 
+background: var(--color-4);  
 }
 .btn-primary:hover { 
 animation: infinite AquaLinkBG 3s; 
+}
+.btn.square {
+    border: 0px;
+    font-size: 12px;
+}
+#article-list #article-list-menu > .btn.best {
+    position: absolute;
+    left: 0;
+    color: var(--color-0);
+    background-image: none;
+    background-color: var(--color-4);
+    border: 2px solid var(--color-4);
 }
 
 /* 푸터 스타일링 */
