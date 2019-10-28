@@ -404,7 +404,7 @@ background: var(--color-4);
 animation: infinite AquaLinkBG 3s; 
 }
 .btn.square {
-    border: 0px;
+    border: 1px solid var(--color-4);
     font-size: 12px;
 }
 #article-list #article-list-menu > .btn.best {
@@ -415,6 +415,11 @@ animation: infinite AquaLinkBG 3s;
     background-color: var(--color-4);
     border: 2px solid var(--color-4);
 }
+#article-list #article-list-menu > .btn.best:hover {
+border: 0px;
+animation: infinite AquaLinkBG 3s; 
+}
+
 
 /* 푸터 스타일링 */
 footer {
