@@ -11,7 +11,10 @@ background: transparent;
 }
 
 a {
-color: var(--color-2);
+color: var(--color-4);
+}
+a:hover {
+  color: var(--color-5);
 }
 /* 로고 */
 /* 꽁게더 로고를 트게더 대신에 보여주는 곳 */
@@ -295,6 +298,10 @@ cursor: pointer;
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
 text-decoration: none;
 color: var(--color-6);
+}
+
+#article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {
+    background-color: var(--color-3);
 }
 
 /* 댓글 타임 스탕일링 */
